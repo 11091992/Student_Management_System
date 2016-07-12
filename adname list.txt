@@ -1,0 +1,22 @@
+ad name list:
+appno adrollno regno sname status sfname
+smname slname ffname fmname flname
+mofname momname molname gender dob mstatus 
+bg emailid mobno nationality domicile
+ domno religion other1 cat1 minority 
+subcat1 ccno incno passno passidate passiplace
+passedate visatype visano visaedate address1
+city1 tehsil1 district1 state1 country1 
+pin1 landline1 address2 city2 tehsil2 
+district2 state2 country2 pin2 landline2
+name photo status1 substatus school prog 
+batchfrom batchto csession admthrough 
+feecat unpaid admsem currsem catquota 
+subcatquota grp refOf refBy priority appid 
+admdate enrollno rollno admunder progtype 
+allotcat allotsubcat late engrate
+
+points:
+1)photo jahan b ho dekh lena 
+2)sir wali se compare kr lena
+3)menu bar n tags ni lgaae maine

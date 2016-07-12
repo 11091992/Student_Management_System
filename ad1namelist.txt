@@ -1,0 +1,16 @@
+ad-1list:
+
+admo rollno sname status focc fdesig fjob
+forg fincome mocc mdesig mjob morg 
+mincome fmob femail mmob memail gmob
+gemail emob eemail smob semail lgname
+lgaddress desig relation lgph stsign
+fphoto fsign mphoto msign
+
+points:
+1)photos jahan b hain dekh liyo
+2)sir ne jo bheja ta ek baar usse compare kr liyo 
+lyuki usme upar neeche menu bar and tags hain jo ni bnaaye maine 
+3)and ad1 me hi jo contact details hain and locl guardian detials hain wo side by side hain 
+ni hui wo mjhse tu dekh liyo
+

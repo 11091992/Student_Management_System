@@ -1,0 +1,358 @@
+<html>
+<head>
+</head>
+<body>
+<form action="ad.php" enctype="multiple/form-data" name="myForm" id="myform" method="post">
+<h1>Admission</h1>
+<table width="90%" border="0" cellspacing="0" cellpadding="6">
+<tr><td>App No.</td>
+<td><input type="text" name="appno" id="appno" size="15"/></td>
+<td>Admn-Roll No.</td>
+<td><input type="text" name="adrollno" id="adrollno" size="15"/></td>
+<td>Reg No.</td>
+<td><input type="text" name="regno" id="regno" size="15"/></td>
+<td>Student Name</td>
+<td><input type="text" name="sname" id="sname" size="15"/></td>
+<td>Status</td>
+<td><input type="text" name="status" id="status" size="15"/></td></tr>
+</table>
+<table>
+<tr><td>
+<table width="50%" border="0" cellspacing="0" cellpadding="2">
+<tr><font size='5' style="font-style: bold;"></br>Personal Info</font></tr>
+
+<tr>
+<td>Student</td>
+<td>First name<input type="text" name="sfname" id="sfname" size="15"/></td>
+<td>Middle name<input type="text" name="smname" id="smname" size="15"/></td>
+<td>Last name<input type="text" name="slname" id="slname" size="15"/></td>
+</tr>
+<tr>
+<td>Father</td>
+<td width="30%">First name<input type="text"  name="ffname" id="ffname" size="15"/></td>
+<td width="30%">Middle name<input type="text"  name="fmname" id="fmname" size="15"/></td>
+<td width="30%">Last name<input type="text"  name="flname" id="flname" size="15"/></td>
+</tr>
+
+<tr>
+<td>Mother</td>
+<td width="30%">First name<input type="text"  name="mofname" id="mofname" size="15"/></td>
+<td width="30%">Middle name<input type="text"  name="momname" id="momname" size="15"/></td>
+<td width="30%">Last name<input type="text"  name="molname" id="molname" size="15"/></td>
+</tr>
+
+<tr>
+<td width="30%">Gender</td>
+<td><input type="radio" name="gender" id="gender" value='male'>Male</input>
+     <input type="radio" name="gender" id="gender" value='female'>Female</input></td>
+<td width="30%">Date Of Birth</td>
+<td><input type="text" name="dob" id="dob" size="15"/></td>
+</tr>
+
+<tr>
+<td width="30%">Marital status</td>
+<td><select name="mstatus" id="mstatus">
+<option value="single">Single </option>
+<option value="married">Married </option>
+<option value="divorcee">Divorcee </option>
+     </select></td>
+<td width="30%">Blood Group</td>
+<td><select name="bg" id="bg">
+<option value="O+">O Positive </option>
+<option value="O-">O Negative</option>
+<option value="A+">A Positive </option>
+<option value="A-">A Negative </option>
+<option value="B+">B Positive</option>
+<option value="B-">B Negative</option>
+<option value="AB+">AB Positive </option>
+<option value="AB-">AB Negative </option>
+     </select></td>
+</tr>
+
+<tr>
+<td width="30%">Email ID</td>
+<td><input type="text" name="emailid" id="emailid" size="15"/>
+<td width="30%">Mobile Number</td>
+<td><input type="text" name="mobno" id="mobno" size="15"/>
+</td></tr>
+
+<tr>
+<td width="30%">Nationality</td>
+<td><input type="text" name="nationality" id="nationality" size="15"/>
+</td></tr>
+
+<tr>
+<td width="30%">Domicile</td>
+<td><select name="domicile" id="domicile">
+<option value="up">U.P</option>
+<option value="other">Other</option>
+     </select></td>
+<td width="30%">Domicile Number</td>
+<td><input type="text" name="domno" id="domno" size="15"/></td>
+</tr>
+<tr>
+<td width="30%">Religion</td>
+<td><select name="religion" id="religion">
+<option value="hindu">Hindu </option>
+<option value="muslim">Muslim </option>
+<option value="christian">Christian </option>
+<option value="other">Other </option>
+     </select>
+</td>
+<td width="30%">If Other</td>
+<td><input type="text" name="other1" id="other1" size="15"/></td>
+</tr>
+<tr>	 
+<td width="30%">Category</td>
+<td><select name="cat1" id="cat1">
+<option value="general"size="20">General </option>
+<option value="sc"> SC</option>
+<option value="st">ST </option>
+<option value="obc">OBC(U.P) </option>
+
+     </select></td>
+	 <td width="30%">Minority</td>
+<td><input type="text" name="minority" id="minority" size="15"/>
+	 </tr>
+	 <tr>
+<td width="30%">Sub-Category</td>
+<td><select name="subcat1" id="subcat1">
+<option value="ph">Physically Handicapped</option>
+<option value="dd">DefencePersonel </option>
+<option value="ff">FreedomFighter </option>
+<option value="km">KashmiriMigrant</option>
+<option value="f">WomenCandidate</option>
+<option value="gb">WardOfGBUEmployee</option>
+     </select></td>
+ </tr>
+  <tr>
+<td width="30%">Caste Certi No.</td>
+<td><input type="text" name="ccno" id="ccno" size="15"/>
+<td width="30%">Inc. Certi No.</td>
+<td><input type="text" name="incno" id="incno" size="15"/>
+
+
+
+<tr>
+<td width="30%">Passport No.</td>
+<td><input type="text" name="passno" id="passno" size="15"/>
+<td width="30%">Passport Issue date</td>
+<td><input type="text" name="passidate" id="passidate" size="15"/></tr>
+<tr>
+<td width="30%">Passport Issue Place</td>
+<td><input type="text" name="passiplace" id="passiplace" size="15"/>
+<td width="30%">Passport Expiry Date</td>
+<td><input type="text" name="passedate" id="passedate" size="15"/>
+</tr>
+<tr>
+<td width="30%">Visa type</td>
+<td><input type="text" name="visatype" id="visatype" size="15"/>
+<td width="30%">Visa No.</td>
+<td><input type="text" name="visano" id="visano" size="15"/>
+</tr>
+<tr>
+<td width="30%">Visa Expiry Date</td>
+<td><input type="text" name="visaedate" id="visaedate" size="15"/></tr>
+</table>
+<table width="50%" border="0" cellspacing="0" cellpadding="2">
+<tr><font size='5' style="font-style: bold;"></br>Permanent Address</font></tr>
+
+<tr><td>Address</td><td><textarea name="address1" id="address1" rows="1" cols="30"></textarea></td></tr>
+<tr><td>City</td><td><input type="text" name="city1" id="city1" size="15"/></td>
+<td>Tehsil</td><td><input type="text" name="tehsil1" id="tehsil1" size="15"/></td></tr>
+<tr><td>District</td><td><input type="text" name="district1" id="district1" size="15"/></td>
+<td>State</td><td><input type="text" name="state1" id="state1" size="15"/></td></tr>
+<tr><td>Country</td><td><input type="text" name="country1" id="country1" size="15"/></td>
+<td>Pin</td><td><input type="text" name="pin1" id="pin1" size="15"/></td></tr>
+<tr><td>Landline</td><td><input type="text" name="landline1" id="landline1" size="15"/></td></tr>
+</table>
+<table width="50%" border="0" cellspacing="0" cellpadding="2">
+<tr><font size='5' style="font-style: bold;"></br>Current Address</font></tr>
+
+<tr><td>Address</td><td><textarea name="address2" id="address2" rows="1" cols="30"></textarea></td></tr>
+<tr><td>City</td><td><input type="text" name="city2" id="city2" size="15"/></td>
+<td>Tehsil</td><td><input type="text" name="tehsil2" id="tehsil2" size="15"/></td></tr>
+<tr><td>District</td><td><input type="text" name="district2" id="district2" size="15"/></td>
+<td>State</td><td><input type="text" name="state2" id="state2" size="15"/></td></tr>
+<tr><td>Country</td><td><input type="text" name="country2" id="country2" size="15"/></td>
+<td>Pin</td><td><input type="text" name="pin2" id="pin2" size="15"/></td></tr>
+<tr><td>Landline</td><td><input type="text" name="landline2" id="landline2" size="15"/></td></tr>
+</table>
+</td><td>
+<table width="50%" border="0" cellspacing="0" cellpadding="6">
+<tr><font size='5' style="font-style: bold;"></br>Official info</font></tr>
+<tr><td>Student Name</td>
+<td><input type="text" name="name" id="name" size="15"/>
+<td>Photo</td>
+<td><textarea name="photo" id="photo" rows="8" cols="11"></textarea></td>
+</tr>
+<tr>
+<td width="20%">Status</td>
+<td><select name="status1" id="status1">
+<option value="active">Active </option>
+<option value="passed">Passed </option>
+<option value="hold">Hold </option>
+</select></td>	 
+<td width="20%">Sub Status</td>
+<td><select name="substatus" id="substatus">
+<option value="regular">Regular </option>
+<option value="repeat">Repeat </option>
+<option value="other">other </option>
+</select></td>	 
+</tr>
+
+<tr>
+<td>School</td>
+<td><select name="school" id="school">
+<option value="soict">SOICT </option>
+<option value="som">SOM</option>
+<option value="soict">SOBT </option>
+<option value="som">SOE</option>
+<option value="soict">SOHSS</option>
+<option value="som">SOVSAS</option>
+<option value="soict">SOLJG </option>
+<option value="som">SOBSC</option>
+</select></td>
+<td>Programme</td>
+<td><select name="prog" id="prog"/>
+<option value="soict">Int.mba</option>
+<option value="soict">MBA</option>
+<option value="som">M.Tech(ICT)</option>
+<option value="soict">Int.mtech(CSE)</option>
+<option value="som">Int.mba(CSE)</option>
+<option value="soict">Int.mtech(ECE)</option>
+<option value="som">Int.mba(CSE)</option>
+<option value="soict">M.Tech(biotech) </option>
+<option value="soict">Int.mtech(biotech)</option>
+<option value="som">Int.mba(biotech)</option>
+<option value="som">M.A(developmental studies)</option>
+<option value="som">MSW</option>
+<option value="som">M.A(Education)</option>
+<option value="soict">M.Tech(engg.)</option>
+<option value="soict">Int.mtech(engg.)</option>
+<option value="som">Int.mba(engg.)</option>
+</td>
+</tr>
+<tr>
+<td width="20%">Batch</td>
+<td></br><input type="text" maxlength="4" size="4" name="batchfrom" id="batchfrom"/>&nbsp;&nbsp;-&nbsp;&nbsp;<input type="text" size="4" maxlength="4" name="batchto" id="batchto"/>
+</b></td>
+<td width="20%">Current Session</td>
+<td><input type="text" name="csession" id="csession" size="15"/></td>
+</tr>
+<tr>
+<td width="20%">Adm through</td>
+<td><select name="admthrough" id="admthrough">
+<option value="direct">Direct </option>
+<option value="indirect">Indirect </option>
+</select></td>
+</tr>
+<tr>
+<td width="20%">Fee Category</td>
+<td></br><select name="feecat" id="feecat">
+<option value="paid">Paid </option>
+<option value="unpaid">Unpaid </option>
+</select></td>	
+ <td>Amt_unpaid&nbsp;<input type="text" name="unpaid" id="unpaid" size="15"/></td>
+</tr>
+<tr>
+<td width="20%">Adm Sem</td>
+<td><input type="text" name="admsem" id="admsem" size="15"/></td>
+<td width="20%">Current Sem</td>
+<td><input type="text" name="currsem" id="currsem" size="15"/></td>
+</tr>
+<tr>
+<tr>
+<td width="20%">Category/ Quota</td>
+<td><input type="text" name="catquota" id="catquota" size="15"/> </td>
+<td width="20%">Sub Category /Quota</td>
+<td><input type="text" name="subcatquota" id="subcatquota" size="15"/></td>
+</tr>
+<tr>
+<td width="20%">Group Name</td>
+<td><input type="text"  name="grp" id="grp" size="15"/></td>
+</tr>
+<tr>
+<td width="20%">Reference Of</td>
+<td><input type="text"  name="refOf" id="refOf" size="15" /></td>
+<td width="20%">Referenced By</td>
+<td><input type="text"  name="refBy" id="refBy" size="15"/></td>
+</tr>
+<tr>
+<td width="20%">Prirority</td>
+<td><input type="text" name="priority" id="priority" size="15"/></td>
+</tr>
+<tr>
+<td width="20%">App i.d</td>
+<td/><input type="text"  name="appid" id="appid" size="15"/></td>
+</tr>
+<tr>
+<td width="20%">Adm Date</td>
+<td><input type="text"  name="admdate" id="admdate" size="15"/></td>
+<td width="20%">Adm Number</td>
+<td><input type="text"  name="admno" id="admno" size="15"/></td>
+</tr>
+<tr>
+<td width="20%">Enrollment Number</td>
+<td><input type="text"  name="enrollno" id="enrollno" size="15"/></td>
+<td width="20%"></br>Roll Number</td>
+<td><input type="text"  name="rollno" id="rollno" size="15"/></td>
+</tr>
+<tr>
+<td width="20%">Adm Under</td>
+<td><input type="text"  name="admunder" id="admunder"size="15"/></td>
+</tr>
+<tr>
+<td width="20%">Programme Type</td>
+<td><select name="progtype" id="progtype" >
+<option value="single">Integrated(m.tech/MBA) </option>
+<option value="married">M.tech </option>
+<option value="married">Phd </option>
+</select>
+   </td>
+</tr>
+<tr>
+<td width="20%">Alloted Category</td>
+<td><select name="allotcat" id="allotcat">
+<option value="general"size="20">General </option>
+<option value="sc"> SC</option>
+<option value="st">ST </option>
+<option value="obc">OBC(U.P) </option>
+
+     </select></td>
+<td width="20%">Alloted Sub Category</td>
+<td><select name="allotsubcat" id="allotsubcat">
+<option value="ph">Physically Handicapped</option>
+<option value="dd">DefencePersonel </option>
+<option value="ff">FreedomFighter </option>
+<option value="km">KashmiriMigrant</option>
+<option value="f">WomenCandidate</option>
+<option value="gb">WardOfGBUEmployee</option>
+     </select></td>
+ </tr>
+<tr>
+<td width="20%">Late Entry</td>
+<td><input type="radio" name="late" id="late" value='yes'>Yes</input>&nbsp;&nbsp;
+   <input type="radio" name="late" id="late" value='no'>No</input>
+   </td>
+   </tr>
+   <tr>
+<td width="20%">Rate in eng</td>
+<td><input type="text" name="engrate" id="engrate" size="15"/></td>
+</tr>
+<tr>
+</table>
+</td>
+</tr>
+</form>
+</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
